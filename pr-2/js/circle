@@ -1,0 +1,13 @@
+const areaOfCircle = (r) => {
+    const pi = 3.14;
+    area = pi * r * r;
+    return (area);
+}
+
+let r, area;
+r = 5;
+
+area = areaOfCircle(r);
+
+document.getElementById("radius").innerHTML = (`Radius is = ${r}`);
+document.getElementById("area").innerHTML = (`Area of Circle is = ${area}`);
